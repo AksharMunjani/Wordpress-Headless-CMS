@@ -1,0 +1,25 @@
+{
+    "Node": ["Post"],
+    "TermNode": ["Category", "PostFormat", "Tag"],
+    "UniformResourceIdentifiable": ["Category", "Post", "PostFormat"],
+    "DatabaseIdentifier": ["Category", "Post", "PostFormat"],
+    "HierarchicalTermNode": ["Category"],
+    "MenuItemLinkable": ["Category", "Page", "Post", "Tag"],
+    "ContentNode": ["MediaItem", "Page", "Post", "Project", "Testimonial"],
+    "Commenter": ["User", "CommentAuthor"],
+    "NodeWithTemplate": ["MediaItem", "Page", "Post", "Project", "Testimonial"],
+    "ContentTemplate": ["DefaultTemplate", "Template_FullWidth"],
+    "NodeWithTitle": ["MediaItem", "Page", "Post", "Project", "Testimonial"],
+    "NodeWithAuthor": ["MediaItem", "Page", "Post", "Project", "Testimonial"],
+    "NodeWithComments": ["MediaItem", "Page", "Post"],
+    "HierarchicalContentNode": ["MediaItem", "Page"],
+    "NodeWithContentEditor": ["Page", "Post"],
+    "NodeWithFeaturedImage": ["Page", "Post", "Project"],
+    "NodeWithExcerpt": ["Page", "Post"],
+    "NodeWithRevisions": ["Page", "Post"],
+    "NodeWithPageAttributes": ["Page"],
+    "NodeWithTrackbacks": ["Post"],
+    "ContentRevisionUnion": ["Post", "Page"],
+    "MenuItemObjectUnion": ["Post", "Page", "Category", "Tag"]
+  }
+  
