@@ -121,6 +121,7 @@ export default function Header() {
                           height={16}
                           alt="marketing image"
                           unoptimized
+                          draggable="false"
                         />
                         <span className="ml-2 max-w-[72px] w-full">
                           {item?.sidebarDetails?.title}
@@ -154,6 +155,7 @@ export default function Header() {
                             alt="mega-menu"
                             className="h-fit group-hover:!filter-none"
                             unoptimized
+                            draggable="false"
                             style={{
                               filter: "brightness(0) invert(0)",
                             }}
@@ -271,7 +273,7 @@ export default function Header() {
       } transition-all 1xl:px-0 sm:px-8 px-4`}
       onMouseLeave={() => setMenuActive(null)}
     >
-      <div className="max-w-screen-xl xlg:gap-[70px] gap-[40px] mx-auto flex flex-row items-center justify-between border-b-gray">
+      <div className="max-w-screen-xl xlg:gap-[70px] gap-[40px] mx-auto flex flex-row items-center justify-between border-b-[0.5px] border-[#CCC9DA]">
         <Link href="/" className="py-4">
           {megaMenuActive || menuActive ? (
             apiData?.themeOptionBy?.header?.logos?.headerDarkLogo?.node
@@ -287,6 +289,7 @@ export default function Header() {
                 className="lg:max-w-[240px] max-w-[156px]"
                 unoptimized
                 lazyBoundary
+                draggable="false"
               />
             ) : null
           ) : apiData?.themeOptionBy?.header?.logos?.headerLightLogo?.node
@@ -302,6 +305,7 @@ export default function Header() {
               className="lg:max-w-[240px] max-w-[156px]"
               unoptimized
               lazyBoundary
+              draggable="false"
             />
           ) : null}
         </Link>

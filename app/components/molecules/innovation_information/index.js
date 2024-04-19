@@ -1,9 +1,7 @@
 export default function InnovationInformation({ data, index }) {
   return (
     <div
-      className={`w-full flex flex-col h-[220px] md:h-[248px] flex-shrink-0 rounded-[32px] sm:p-[40px] p-6 gap-[35px] border border-[#3C5186] ${
-        index === 0 ? "bg-[#1A255780]" : "bg-[#1A2557]"
-      }`}
+      className={`w-full flex flex-col h-[220px] md:h-[248px] flex-shrink-0 rounded-[32px] sm:p-[40px] p-6 gap-[35px] border border-[#3C5186] bg-[#1A255780]`}
     >
       <div className="flex gap-2 items-center">
         <div className="h-[1px] w-[40px] bg-white" />

@@ -33,6 +33,7 @@ export default async function About() {
             sizes={20}
             className="w-full lg:max-w-[505px] max-w-[386px] lg:mt-0 mt-10"
             unoptimized
+            draggable="false"
           />
         </div>
       </div>

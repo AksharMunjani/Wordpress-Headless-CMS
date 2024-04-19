@@ -37,6 +37,7 @@ export default async function Services() {
               height={1000}
               className="sm:w-[60px] sm:h-auto h-[47.7px] w-auto"
               unoptimized
+              draggable="false"
             />
             <p className="sm:text-center lg:text-[20px] text-textColor leading-6 line-clamp-3 overflow-hidden">
               {item?.servicesProvidedDescription}

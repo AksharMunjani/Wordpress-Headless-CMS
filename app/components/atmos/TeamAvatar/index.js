@@ -11,6 +11,7 @@ export default function TeamAvatar({ img, name, position, nameColor }) {
           height={1000}
           className="rounded-full h-[110px] w-[110px] border-borderColor border-2 object-cover"
           unoptimized
+          draggable="false"
         />
         <div className="-mt-[24px] bg-team-gradient py-[8px] px-[16px] font-bold rotate-[-2.986deg] max-w-[174px] rounded-full text-ellipsis overflow-hidden">
           {position}

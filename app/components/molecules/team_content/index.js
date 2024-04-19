@@ -21,6 +21,7 @@ export default async function TeamContent({ apiData = {} }) {
           sizes={20}
           className="w-full rounded-[30px] xlg:h-auto h-[248px] object-cover max-w-full"
           unoptimized
+          draggable="false"
         />
       </div>
     </>

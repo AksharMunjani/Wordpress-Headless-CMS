@@ -27,6 +27,7 @@ export default function Footer() {
             height={50}
             className="sm:max-w-[240px] max-w-[150px]"
             unoptimized
+            draggable="false"
             lazyRoot="true"
           />
         ) : null}

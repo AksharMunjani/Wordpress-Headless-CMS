@@ -44,6 +44,7 @@ export default async function Contact() {
                 width={32}
                 height={32}
                 sizes={20}
+                draggable="false"
               />
             </Link>
             <Link
@@ -57,6 +58,7 @@ export default async function Contact() {
                 width={32}
                 height={32}
                 sizes={20}
+                draggable="false"
               />
             </Link>
             <Link
@@ -70,6 +72,7 @@ export default async function Contact() {
                 width={32}
                 height={32}
                 sizes={20}
+                draggable="false"
               />
             </Link>
             <Link
@@ -83,6 +86,7 @@ export default async function Contact() {
                 width={32}
                 height={32}
                 sizes={20}
+                draggable="false"
               />
             </Link>
           </div>
@@ -96,6 +100,7 @@ export default async function Contact() {
             sizes={20}
             className="max-w-[431px] w-full h-full lg:object-cover object-fill object-top lg:mb-0 -mb-[180px] mx-auto"
             unoptimized
+            draggable="false"
           />
         </div>
       </div>

@@ -17,7 +17,7 @@ export default function ImpactContent({ apiData = {} }) {
       <div className=" flex flex-col gap-4">
         <div className="flex gap-4 items-center">
           <AvatarGroup apiData={apiData?.clientsInfo} />
-          <p className="md:text-[32px] text-[20px]">{`[${apiData?.clientsInfo?.clientNumber}]`}</p>
+          <p className="md:text-[32px] text-[20px]">{`(${apiData?.clientsInfo?.clientNumber})`}</p>
         </div>
         <ul className="list-disc list-inside">
           <li className="leading-[120%] sm:text-[20px]">

@@ -31,6 +31,7 @@ export default async function Impact() {
             width={1000}
             height={1000}
             className="w-full max-w-[460px] mix-blend-plus-lighter"
+            draggable="false"
           />
           <Image
             src={apiData?.image?.node?.link}
@@ -39,6 +40,7 @@ export default async function Impact() {
             height={1000}
             className="w-full sm:max-w-[460px] absolute z-0 top-10"
             unoptimized
+            draggable="false"
           />
         </div>
       </div>

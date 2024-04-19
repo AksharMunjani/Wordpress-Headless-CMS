@@ -35,6 +35,7 @@ export default function ShadesLayout({ position, img, children }) {
             quality={100}
             width={1920}
             height={1080}
+            draggable="false"
           />
         ) : null}
       </div>
